@@ -1,0 +1,16 @@
+.custom-dropdown {
+    border: 1px solid #000000;  /* Outline warna biru */
+    border-radius: 12px;        /* Membuat sudut rounded */
+    padding: 4px;               /* Mengurangi padding untuk memperkecil ukuran */
+    max-width: 200px;           /* Membatasi lebar dropdown */
+    margin: 30px auto;          /* Menambah jarak atas dan bawah 10px serta membuat dropdown di tengah secara horizontal */
+  }
+  
+  ion-select {
+    --padding-start: 5px;       /* Mengurangi padding internal untuk memperkecil kotak */
+    --border-radius: 12px;
+    --min-height: 36px;         /* Menyesuaikan tinggi minimum untuk dropdown */
+    --height: 36px;             /* Tinggi kotak dropdown */
+    --placeholder-color: #aaa;  /* Warna placeholder */
+  }
+  
